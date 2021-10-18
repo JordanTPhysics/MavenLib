@@ -3,29 +3,29 @@ package company;
 public class LibraryItems<name> extends Main {
 //Attributes
 public String name;
-public int release_yr;
+public int releaseYr;
 public String genre;
 
 
 
 
  //Constructor
-    public LibraryItems(String name, int release_yr, String genre) {
+    public LibraryItems(String name, int releaseYr, String genre) {
 
         this.name = name;
-        this.release_yr = release_yr;
-        this.genre = this.genre;
+        this.releaseYr = releaseYr;
+        this.genre = genre;
 
     }
     public String getName(){return name;}
-    public int getRelease_yr(){return release_yr;}
+    public int getReleaseYr(){return releaseYr;}
     public String getGenre(){return genre;}
 
 
     public void setName(String name) {
         this.name = name;
     }
-    public void setRelease_yr(int release_yr) {this.release_yr = release_yr;}
+    public void setReleaseYr(int releaseYr) {this.releaseYr = releaseYr;}
     public void setGenre(String genre) {
         this.genre = genre;
     }

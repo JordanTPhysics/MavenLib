@@ -1,7 +1,7 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-MavenLibrary,company,Game,6,0,0,0,2,0,1,0,1,0
-MavenLibrary,company,DVD,6,0,0,0,2,0,1,0,1,0
-MavenLibrary,company,LibraryItems,18,16,0,0,7,6,5,2,5,2
+MavenLibrary,company,Game,7,0,0,0,3,0,2,0,2,0
+MavenLibrary,company,DVD,7,0,0,0,3,0,2,0,2,0
+MavenLibrary,company,LibraryItems,18,15,0,0,7,6,5,2,5,2
 MavenLibrary,company,Book,40,18,0,0,12,6,7,1,7,1
-MavenLibrary,company,Main,69,3,0,0,11,2,2,1,2,1
+MavenLibrary,company,Main,88,3,0,0,16,2,2,1,2,1
 MavenLibrary,company,Audiobook,6,0,0,0,2,0,1,0,1,0

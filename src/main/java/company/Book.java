@@ -11,15 +11,15 @@ public class Book extends LibraryItems implements Author{
     //Attributes
      private int pages;
      private boolean hardcopy;
-     private String Author ;
+     private String Author;
 
 
 
 
      //Constructor
 
-    public Book(String name, int release_yr, int pages, boolean hardcopy, String Author, String genre){
-        super (name, release_yr, genre);
+    public Book(String name, int releaseYr, int pages, boolean hardcopy, String Author, String genre){
+        super (name, releaseYr, genre);
         this.pages = pages;
         this.hardcopy = hardcopy;
         this.Author = Author;

@@ -9,10 +9,15 @@ public abstract class DVD extends LibraryItems implements age_rating {
 
 
     //Constructor
-    public DVD(String name, int release_yr, int age_rating, String genre) {
-<span class="nc" id="L13">        super(name, release_yr, genre);</span>
+    protected DVD(String name, int releaseYr, int age_rating, String genre) {
+<span class="nc" id="L13">        super(name, releaseYr, genre);</span>
 
 <span class="nc" id="L15">    }</span>
+
+    @Override
+   public void age_rating() {
+
+<span class="nc" id="L20">    }</span>
     //Methods
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

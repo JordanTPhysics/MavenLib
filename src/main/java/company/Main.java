@@ -1,5 +1,8 @@
 package company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main{
 
     public Main(String name, int release_yr, String genre) {
@@ -19,7 +22,12 @@ public class Main{
         System.out.println(Bible);
         System.out.println(HarryPotter1);
         System.out.println(CIA);
-        Audiobook Ocean = new Audiobook("Ocean sounds",2018,"");
+        Audiobook Ocean = new Audiobook("Ocean sounds",2018,"Relax");
+        List<Object> Books = new ArrayList<Object>();
+        Books.add(HarryPotter1);
+        Books.add(Bible);
+        Books.add(CIA);
+        System.out.println(Books);
 
 
     }

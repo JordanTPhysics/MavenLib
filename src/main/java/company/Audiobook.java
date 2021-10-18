@@ -7,8 +7,8 @@ public class Audiobook extends LibraryItems implements Author {
 
 
     //Constructor
-    public Audiobook(String name, int release_yr,String genre) {
-        super(name, release_yr, genre);
+    public Audiobook(String name, int releaseYr,String genre) {
+        super(name, releaseYr, genre);
 
     }
     //Methods
