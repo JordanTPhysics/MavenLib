@@ -17,6 +17,9 @@ public class Main{
         Book HarryPotter1 = new Book("Harry Potter I ",1997,224,true,"J.K.Rowling","Adventure");
         Book Bible = new Book("The Holy Bible",1,666,true,"Everyone","Adventure");
         System.out.println(Bible);
+        System.out.println(HarryPotter1);
+        System.out.println(CIA);
+        Audiobook Ocean = new Audiobook("Ocean sounds",2018,"");
 
 
     }
