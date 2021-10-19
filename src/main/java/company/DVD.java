@@ -1,6 +1,6 @@
 package company;
 
-public abstract class DVD extends LibraryItems implements age_rating {
+public class DVD extends LibraryItems implements AgeRating, length {
 
 
 
@@ -9,14 +9,22 @@ public abstract class DVD extends LibraryItems implements age_rating {
 
 
     //Constructor
-    protected DVD(String name, int releaseYr, int age_rating, String genre) {
+    protected DVD(String name, int releaseYr, int AgeRating, String genre) {
         super(name, releaseYr, genre);
 
     }
+    public String toString(){return "\r\n name: " + this.name +"\r\n Release year: "
+            + this.releaseYr +"\r\n Age rating: " + AgeRating() + "\r\n Genre: " + this.genre; }
+
+    //Methods
+    @Override
+    public int AgeRating() {return 0;
+    }
 
     @Override
-   public void age_rating() {
-
+    public double length() {
+        return 0;
     }
-    //Methods
 }
+
+

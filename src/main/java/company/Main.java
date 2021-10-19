@@ -22,12 +22,14 @@ public class Main{
         System.out.println(Bible);
         System.out.println(HarryPotter1);
         System.out.println(CIA);
-        Audiobook Ocean = new Audiobook("Ocean sounds",2018,"Relax");
+        Audiobook Ocean = new Audiobook("Ocean sounds",2018,10.4,"Relax");
+        Game BF3 = new Game("BATTLEFIELD 3",2011,18,"Action");
         List<Object> Books = new ArrayList<Object>();
         Books.add(HarryPotter1);
         Books.add(Bible);
         Books.add(CIA);
         System.out.println(Books);
+        System.out.println(BF3);
 
 
     }

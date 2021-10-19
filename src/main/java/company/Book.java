@@ -10,7 +10,7 @@ public class Book extends LibraryItems implements Author{
 
     //Attributes
      private int pages;
-     private boolean hardcopy;
+     private boolean HardCopy;
      private String Author;
 
 
@@ -18,10 +18,10 @@ public class Book extends LibraryItems implements Author{
 
      //Constructor
 
-    public Book(String name, int releaseYr, int pages, boolean hardcopy, String Author, String genre){
+    public Book(String name, int releaseYr, int pages, boolean HardCopy, String Author, String genre){
         super (name, releaseYr, genre);
         this.pages = pages;
-        this.hardcopy = hardcopy;
+        this.HardCopy = HardCopy;
         this.Author = Author;
         this.genre = genre;
 
@@ -30,8 +30,8 @@ public class Book extends LibraryItems implements Author{
     }
 public String toString() {
 
-        return "\r\n Name: " + this.name + "\r\n Pages: " + this.pages + "\r\n Author: " + this.Author + "\r\n Genre: " + this.genre;
-
+        return "\r\n Name: " + this.name + "\r\n Pages: " + this.pages + "\r\n Author: " + this.Author +"\r\n Release year: " + this.releaseYr + "\r\n Genre: " + this.genre +
+"\r\n HardCopy: " + this.HardCopy;
     }
 
 
@@ -45,21 +45,21 @@ public int getpages(){
 }
 public boolean gethardcopy() {
 
-        return hardcopy;
+        return HardCopy;
 }
 
     public void setAuthor(String author) {
-        Author = author;
-        System.out.println("The Author's name is:"+Author);
+        this.Author = author;
+
     }
 
     public void setpages(int pages) {
         this.pages = pages;
-        System.out.println("The book has"+pages+"pages");
+
     }
 
-    public void sethardcopy(boolean hardcopy) {
-        this.hardcopy = hardcopy;
+    public void sethardcopy(boolean HardCopy) {
+        this.HardCopy = HardCopy;
     }
 
 }

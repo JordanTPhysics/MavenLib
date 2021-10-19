@@ -1,6 +1,6 @@
 package company;
 
-public class LibraryItems<name> extends Main {
+public abstract class LibraryItems<name> extends Main {
 //Attributes
 public String name;
 public int releaseYr;
